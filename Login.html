@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign In - Open Arms Community Service</title>
+    <link rel="stylesheet" href="Home.css">
+    <style>
+        #login-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 80%; /* Set width to 80% */
+    text-align: center;
+    margin: 20px auto; /* Center horizontally and add margin top and bottom */
+}
+
+#login-form h2 {
+    margin-bottom: 20px;
+    color: #303054;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#login-form button {
+    background-color: #303054;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-form button:hover {
+    background-color: #414167;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="Home.html" class="brand-logo">Open Arms Community Service</a>
+            <nav class="site-navigation">
+                <ul class="nav-list">
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#missions-section">Missions</a></li>
+                    <li><a href="#donations-section">Donations</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="login-form">
+        <h2>Login / Sign In</h2>
+        <form action="#" method="post" id="login-form">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit" class="cta-button">Login</button>
+            <div class="error-message" id="error-message"></div>
+        </form>
+    </div>
+
+    <footer id="contact-section" class="site-footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:foundation@example.com">foundation@example.com</a></p>
+            <p>Address: rajahmundry,AP</p>
+        </div>
+    </footer>
+</body>
+
+</html>

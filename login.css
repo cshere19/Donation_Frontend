@@ -1,0 +1,37 @@
+/* Ensure the root, body, and all parents of the login-section are height 100% or min-height 100% */
+html, body {
+    height: 100%;
+    margin: 0; /* Removes default margin */
+}
+
+/* Additional styles for the login section */
+.login-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make it full viewport height */
+    padding: 0 20px; /* Adjust padding as needed */
+    background-color: #fff; /* Background color or use a gradient/imagery as per your design */
+}
+
+.login-container {
+    width: 100%; /* Adjust based on preference */
+    max-width: 400px; /* Keeps the form reasonably sized */
+    padding: 20px;
+    background-color: #f0f0f0; /* Consider reusing existing styles for consistency */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Reuse existing input and button styles from your CSS, possibly adjusting for the context */
+.login-form input[type=email], 
+.login-form input[type=password] {
+    /* Inherits styles from your CSS, ensuring consistency */
+}
+
+.login-form button[type=submit] {
+    /* Inherits button styles, ensuring visual consistency across the site */
+}
+
+/* Ensures the login section uses existing typography, colors, and other style definitions */

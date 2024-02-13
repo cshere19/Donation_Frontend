@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Open Arms Community Service</title>
+    <link rel="stylesheet" href="Home.css">
+    <style>
+        #donation-section {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #donation-section h2 {
+            color: #303054;
+            margin-bottom: 20px;
+        }
+
+        #donation-section p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        #donation-section button {
+            background-color: #303054;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #donation-section button:hover {
+            background-color: #414167;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="Home.html" class="brand-logo">Open Arms Community Service</a>
+            <nav class="site-navigation">
+                <ul class="nav-list">
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#missions-section">Missions</a></li>
+                    <li><a href="#donations-section">Donations</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="donation-section">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <p>Fill out the form below, and our team will collect your donation or wastage from your place.</p>
+            <form class="contact-form">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="tel" class="form-control" placeholder="Mobile No." required>
+                <select name="donation" id="donation" class="form-control" required>
+                    <option value="">Choose Donation or Wastage</option>
+                    <option value="food">Food</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="footware">Footware</option>
+                    <option value="books">Books</option>
+                    <option value="fund">Fund</option>
+                    <option value="gadget">Ele. Gadgets</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Address" required>
+                <textarea class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Message" required></textarea>
+                <a href="thankyou.html" class="cta-button">Submit Details</a>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact-section" class="site-footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:foundation@example.com">foundation@example.com</a></p>
+            <p>Address: rajahmundry,AP</p>
+        </div>
+    </footer>
+</body>
+
+</html>
